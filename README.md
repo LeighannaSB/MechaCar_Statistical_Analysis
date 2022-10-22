@@ -31,3 +31,5 @@ The R-Squared for this analysis was .7149 meaning the model effectively predicts
 ![image](https://user-images.githubusercontent.com/107161421/196326107-62e98573-737a-4655-8902-8e3f184cfe06.png)
 
 As a whole, the variance of the suspension coils is 62 which is within the expected range (<100). However, when the three manufacturing lots are examined individually it shows that while lots 1 and 2 are well under the 100 threshold lot 3 is the main contributor to the total 62 variance with an individual variance of 170 coming in well above the threshold. 
+
+

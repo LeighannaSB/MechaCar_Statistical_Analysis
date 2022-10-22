@@ -1,9 +1,12 @@
+# Deliverable 1
+
 library(dplyr)
 MechaCar_table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 head(MechaCar_table)
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_table)
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_table))
 
+# Deliverable 2
 
 Sus_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
 head(Sus_table)
@@ -12,6 +15,7 @@ total_summary
 lot_summary <- Sus_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
 lot_summary
 
+# Deliverable 3
 
 t.test(Sus_table$PSI,mu=mean(Sus_table$PSI))
 t.test(subset(Sus_table$PSI,Sus_table$Manufacturing_Lot == "Lot1"),mu=1500)

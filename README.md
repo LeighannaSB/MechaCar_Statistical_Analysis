@@ -32,4 +32,22 @@ The R-Squared for this analysis was .7149 meaning the model effectively predicts
 
 As a whole, the variance of the suspension coils is 62 which is within the expected range (<100). However, when the three manufacturing lots are examined individually it shows that while lots 1 and 2 are well under the 100 threshold lot 3 is the main contributor to the total 62 variance with an individual variance of 170 coming in well above the threshold. 
 
+## T-Tests on Suspension Coils
 
+In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+![image](https://user-images.githubusercontent.com/107161421/197364550-26533bf2-90d5-4eba-97c7-2b4603e1a8fc.png)
+
+For the entire population the T-Test yielded a p-value of 1 which is above the .05 needed to be considered significant. So, the population mean of 1498.78 is not significantly different.
+
+![image](https://user-images.githubusercontent.com/107161421/197365477-fda7aaec-137f-4260-b222-c63471b62b37.png)
+
+The T-Test for lot 1 yielded a p-value of 1 which is above .05 meaning the mean of 1500 is not significantly different.
+
+![image](https://user-images.githubusercontent.com/107161421/197365490-7fc67de7-9d3c-454c-9a40-5aabda3581a8.png)
+
+The T-Test for lot 2 yielded a p-value of .61 which is above .05 meaning the mean of 1500.2 is not significantly different.
+
+![image](https://user-images.githubusercontent.com/107161421/197365502-484b06c3-5dac-4559-b244-426caa6b0cc1.png)
+
+The T-Test for lot 3 yielded a p-value of .04 which is lower than the .05 needed for significance meaning the mean of 1496.14 is significantly different.

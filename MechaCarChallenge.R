@@ -11,3 +11,9 @@ total_summary <- Sus_table %>% summarize(Mean = mean(PSI), Median = median(PSI),
 total_summary
 lot_summary <- Sus_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
 lot_summary
+
+
+t.test(Sus_table$PSI,mu=mean(Sus_table$PSI))
+t.test(subset(Sus_table$PSI,Sus_table$Manufacturing_Lot == "Lot1"),mu=1500)
+t.test(subset(Sus_table$PSI,Sus_table$Manufacturing_Lot == "Lot2"),mu=1500)
+t.test(subset(Sus_table$PSI,Sus_table$Manufacturing_Lot == "Lot3"),mu=1500)

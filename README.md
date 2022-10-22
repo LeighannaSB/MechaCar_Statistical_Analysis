@@ -1,6 +1,6 @@
 # MechaCar Statistical Analysis
 
-
+![image](https://user-images.githubusercontent.com/107161421/197366135-e62be285-2cb0-4c03-9f85-9d904e2182cb.png)
 
 ## Linear Regression to Predict MPG
 
@@ -34,8 +34,6 @@ As a whole, the variance of the suspension coils is 62 which is within the expec
 
 ## T-Tests on Suspension Coils
 
-In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
 ![image](https://user-images.githubusercontent.com/107161421/197364550-26533bf2-90d5-4eba-97c7-2b4603e1a8fc.png)
 
 For the entire population the T-Test yielded a p-value of 1 which is above the .05 needed to be considered significant. So, the population mean of 1498.78 is not significantly different.
@@ -51,3 +49,7 @@ The T-Test for lot 2 yielded a p-value of .61 which is above .05 meaning the mea
 ![image](https://user-images.githubusercontent.com/107161421/197365502-484b06c3-5dac-4559-b244-426caa6b0cc1.png)
 
 The T-Test for lot 3 yielded a p-value of .04 which is lower than the .05 needed for significance meaning the mean of 1496.14 is significantly different.
+
+## Study Design: MechaCar vs Competition
+
+Further research could be done to compare how MechaCar performs against competetors. A study looking at the safety rating could provide insight into how safe MechaCar vehicles rate compared to other vehicles- this could be a big deciding factor for consumers when car shopping. The null hypothesis for this study would be that MechaCar does not vary significantly from the competetors average safety rating. The safety ratings for MechaCar models and the competetors would be needed to find their means, then t-tests could be done to compare whether MechaCar is in line with the competetors or varies from their ratings significantly.
